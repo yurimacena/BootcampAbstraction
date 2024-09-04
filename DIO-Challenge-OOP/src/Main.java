@@ -9,8 +9,8 @@ public class Main {
         course1.setWorkload(8);
 
         Course course2 = new Course();
-        course2.setTitle("Java Course");
-        course2.setDescription("Java course description");
+        course2.setTitle("JavaScript Course");
+        course2.setDescription("JavaScript course description");
         course2.setWorkload(8);
         
         Mentory mentory = new Mentory();
