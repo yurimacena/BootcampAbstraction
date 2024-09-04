@@ -12,6 +12,11 @@ public class Main {
         course2.setTitle("JavaScript Course");
         course2.setDescription("JavaScript course description");
         course2.setWorkload(8);
+
+        Course course3 = new Course();
+        course3.setTitle("SQL Course");
+        course3.setDescription("SQL course description");
+        course3.setWorkload(4);
         
         Mentory mentory = new Mentory();
         mentory.setTitle("Java mentory");
@@ -36,13 +41,13 @@ public class Main {
         
         devYuri.moveForward();
         devYuri.moveForward();
-        System.out.println("-");
+        System.out.println("");
         System.out.println("Enrolled contents Yuri: " + devYuri.getEnrolledContents());
         System.out.println("Completed contents Yuri: " + devYuri.getCompletedContents());
         System.out.println("XP: " + devYuri.calculateXp());
 
 
-        System.out.println("=========");
+        System.out.println("\n==============\n");
 
         Dev devJohn = new Dev();
         devJohn.setName("John");
@@ -50,9 +55,10 @@ public class Main {
         System.out.println("Enrolled contents John: " + devJohn.getEnrolledContents());
         
         devJohn.moveForward();
-        System.out.println("-");
+        System.out.println("");
         System.out.println("Enrolled contents John: " + devJohn.getEnrolledContents());
         System.out.println("Completed contents John: " + devJohn.getCompletedContents());
         System.out.println("XP: " + devJohn.calculateXp());
+        
     }
 }

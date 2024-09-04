@@ -19,7 +19,7 @@ public class Mentory extends Content {
 
     @Override
     public String toString() {
-        return "Mentory [title=" + getTitle() + ", description=" + getDescription() + ", date=" + date + "]";
+        return "Mentory title:" + getTitle() + " Description:" + getDescription() + " Date:" + date + "";
     }
 
     
